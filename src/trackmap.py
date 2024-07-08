@@ -19,7 +19,6 @@ COLORS = color_file.read().split("\n")
 color_file.close()
 
 
-
 def _name_to_title(name):
     return name.strip(".gpx").replace("_", " ")
 
